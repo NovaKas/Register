@@ -173,9 +173,33 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612161628557_mig1.cs" />
+    <Compile Include="Migrations\201612161628557_mig1.Designer.cs">
+      <DependentUpon>201612161628557_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612161648245_mig2.cs" />
+    <Compile Include="Migrations\201612161648245_mig2.Designer.cs">
+      <DependentUpon>201612161648245_mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612161805516_wszystkieTabele.cs" />
+    <Compile Include="Migrations\201612161805516_wszystkieTabele.Designer.cs">
+      <DependentUpon>201612161805516_wszystkieTabele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Grade.cs" />
+    <Compile Include="Models\GradeList.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MySubject.cs" />
+    <Compile Include="Models\News.cs" />
+    <Compile Include="Models\Parent.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\Quiz.cs" />
+    <Compile Include="Models\SClass.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -252,6 +276,15 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612161628557_mig1.resx">
+      <DependentUpon>201612161628557_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612161648245_mig2.resx">
+      <DependentUpon>201612161648245_mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612161805516_wszystkieTabele.resx">
+      <DependentUpon>201612161805516_wszystkieTabele.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resource.pl.resx" />
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
