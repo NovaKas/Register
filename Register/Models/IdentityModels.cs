@@ -42,10 +42,10 @@ namespace Register.Models
         public DbSet<MySubject> MySubjects { get; set; }
         public DbSet<SClass> SClasses { get; set; }
         public DbSet<Grade> Grades { get; set; }
-        public DbSet<GradeList> GradeList { get; set; }
+        //public DbSet<GradeList> GradeList { get; set; }
         public DbSet<News> Newses { get; set; }
         public DbSet<Question> Questions { get; set; }
-        public DbSet<Quiz> Quiz { get; set; }
+        public DbSet<Quiz> Quizes { get; set; }
 
 
     }
