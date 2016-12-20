@@ -47,7 +47,7 @@ namespace Register.Models
         public DbSet<Question> Questions { get; set; }
         public DbSet<Quiz> Quizes { get; set; }
 
-
+        public System.Data.Entity.DbSet<Register.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 
     // ROLE
